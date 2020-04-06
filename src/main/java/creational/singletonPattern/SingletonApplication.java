@@ -1,4 +1,4 @@
-package creational.singletonPattern;
+package main.java.creational.singletonPattern;
 
 public class SingletonApplication {
 

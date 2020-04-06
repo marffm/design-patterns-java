@@ -1,8 +1,8 @@
-package creational.builderPattern;
+package main.java.creational.builderPattern;
 
-import creational.builderPattern.cards.Card;
-import creational.builderPattern.decorations.Decoration;
-import creational.builderPattern.products.Product;
+import main.java.creational.builderPattern.cards.Card;
+import main.java.creational.builderPattern.decorations.Decoration;
+import main.java.creational.builderPattern.products.Product;
 
 public class GiftBuilder {
 

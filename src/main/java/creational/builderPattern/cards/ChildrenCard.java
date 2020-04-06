@@ -1,4 +1,4 @@
-package creational.builderPattern.cards;
+package main.java.creational.builderPattern.cards;
 
 public class ChildrenCard implements Card {
   private String message;

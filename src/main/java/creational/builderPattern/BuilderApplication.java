@@ -1,12 +1,12 @@
-package creational.builderPattern;
+package main.java.creational.builderPattern;
 
-import creational.builderPattern.cards.AdultCard;
-import creational.builderPattern.cards.ChildrenCard;
-import creational.builderPattern.decorations.AdultDecoration;
-import creational.builderPattern.decorations.ChildrenDecoration;
-import creational.builderPattern.products.GamingPc;
-import creational.builderPattern.products.Shoes;
-import creational.builderPattern.products.Toy;
+import main.java.creational.builderPattern.cards.AdultCard;
+import main.java.creational.builderPattern.cards.ChildrenCard;
+import main.java.creational.builderPattern.decorations.AdultDecoration;
+import main.java.creational.builderPattern.decorations.ChildrenDecoration;
+import main.java.creational.builderPattern.products.GamingPc;
+import main.java.creational.builderPattern.products.Shoes;
+import main.java.creational.builderPattern.products.Toy;
 
 public class BuilderApplication {
 

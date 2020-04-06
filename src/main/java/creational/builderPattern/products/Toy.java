@@ -1,4 +1,4 @@
-package creational.builderPattern.products;
+package main.java.creational.builderPattern.products;
 
 public class Toy implements Product {
   @Override

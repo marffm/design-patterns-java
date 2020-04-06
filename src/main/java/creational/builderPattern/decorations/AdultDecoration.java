@@ -1,4 +1,4 @@
-package creational.builderPattern.decorations;
+package main.java.creational.builderPattern.decorations;
 
 public class AdultDecoration implements Decoration {
 
