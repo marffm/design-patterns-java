@@ -1,4 +1,4 @@
-package singletonPattern;
+package creational.singletonPattern;
 
 public class SingletonClassInstance {
 
