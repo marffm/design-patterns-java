@@ -15,18 +15,18 @@ public class BuilderApplication {
 
     GiftBuilder giftBuilder = new GiftBuilder();
 
-    giftBuilder.builder(new AdultCard());
-    giftBuilder.builder(new AdultDecoration());
-    giftBuilder.builder(new Shoes());
+    giftBuilder.card(new AdultCard());
+    giftBuilder.decoration(new AdultDecoration());
+    giftBuilder.product(new Shoes());
     Gift adultGift = giftBuilder.build();
 
-    giftBuilder.builder(new ChildrenCard());
-    giftBuilder.builder(new ChildrenDecoration());
-    giftBuilder.builder(new Toy());
+    giftBuilder.card(new ChildrenCard());
+    giftBuilder.decoration(new ChildrenDecoration());
+    giftBuilder.product(new Toy());
     Gift childrenGift = giftBuilder.build();
 
 
-    giftBuilder.builder(new GamingPc());
+    giftBuilder.product(new GamingPc());
     Gift mySelfGift = giftBuilder.build();
 
     System.out.println("Adult gift");

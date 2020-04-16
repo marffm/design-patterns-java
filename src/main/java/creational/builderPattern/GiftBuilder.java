@@ -12,17 +12,17 @@ public class GiftBuilder {
 
   private Card card;
 
-  public GiftBuilder builder(Product product) {
+  public GiftBuilder product(Product product) {
     this.product = product;
     return this;
   }
 
-  public GiftBuilder builder(Decoration decoration) {
+  public GiftBuilder decoration(Decoration decoration) {
     this.decoration = decoration;
     return this;
   }
 
-  public GiftBuilder builder(Card card) {
+  public GiftBuilder card(Card card) {
     this.card = card;
     return this;
   }
